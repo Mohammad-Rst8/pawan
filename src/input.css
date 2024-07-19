@@ -1,0 +1,18 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+   @font-face {
+    font-family: "yekan-bold";
+    src: url("../fonts/iranyekan-bold.ttf");
+   }
+   @font-face {
+    font-family: "yekan-medium";
+    src: url("../fonts/iranyekan-medium.ttf");
+   }
+   @font-face {
+    font-family: "yekan-thin";
+    src: url("../fonts/iranyekan-thin.ttf");
+   }
+}
